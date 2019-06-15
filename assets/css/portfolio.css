@@ -1,11 +1,37 @@
-*{padding: 0;
-    margin:0 ;
-  }
 
+  .three-column-images
+  {
+    background:white;
+  }
+  
+  .three-column-images .row
+  {
+    text-align:center;
+  }
+  .three-column-images img
+  {
+    margin-bottom:10px;
+    margin-top:20px;
+    
+  }
+  
+  .three-column-images a
+  {
+    font-weight:bold;
+  }
+  section{
+    padding: 20px;
+  }
 
 
 .navbar-expand-lg .navbar-collapse{
 padding-left: 45%;
+}
+
+.container1 
+.container2 
+.container3 {
+  padding: 20%;
 }
 
 
@@ -50,10 +76,11 @@ top: 8px;
 }
   .jumbotron {
 margin: 3em;  
-
+background-color: white;
+padding: 0;
+margin: 0 auto;
 }
 
-}
 
 body{
     background-image: url("/assets/images/dots.jpg");
@@ -62,14 +89,18 @@ body{
 .jumbotron-fluid {
     padding-top: 10px;
     padding-bottom: 10px;
- 
-
+    padding: 0;
+    margin: 0 auto;
 }
 
 
+a{
+  color: #ff4040;
+  letter-spacing: 1px;
+   text-decoration: none;
+}
 
 footer {
-  
     padding: 30px 0;
     clear: both;
     font-size: 12px;
