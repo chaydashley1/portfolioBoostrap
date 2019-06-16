@@ -1,7 +1,5 @@
 *{padding: 0;
     margin:0 ;
-    background-image: url("/assets/images/dots.jpg");
-
   }
 
 
@@ -18,18 +16,20 @@ padding-left: 45%;
     background-color: #ff4040;
     margin-top: -8px;
     margin-bottom: -6px;}
-    
-
-.dropdown-item {
-    display: flex;
  
-
 }
+
+.containerfix{
+  padding: 10px;
+}
+.form-group{
+  padding: 10px;
+}
+
 
 .auth-image{
     display: flex;
    right: 70%;;
-   margin-left: 20px;
 }
 
 .lead{display: flex;
@@ -45,6 +45,9 @@ l
 display: flex;
 top: 8px;
   border-bottom: 1px solid #999;
+}
+
+.h3, h3 {
   font-size: 1.75rem;
   padding: 27px;
 }
@@ -52,13 +55,13 @@ top: 8px;
 
   .jumbotron {
 margin: 3em;  
-background-image: url("/assets/images/dots.jpg");
 
 }
 
 
 
 body{
+    background-image: url("/assets/images/dots.jpg");
 }
 
 

@@ -68,9 +68,6 @@ l
 display: flex;
 top: 8px;
     border-bottom: 1px solid #999;
-  }
-
-  .h3, h3 {
     font-size: 1.75rem;
     padding: 27px;
 }
@@ -110,7 +107,7 @@ footer {
     background: #ff4040;
     border-top: 3px solid lightgrey;
     height: 50px;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     font-size: 15px;
   
   }
