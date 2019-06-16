@@ -8,16 +8,19 @@
 padding-left: 45%;
 }
 
-
+.nav-link {
+color: #ff4040;
+}
 
 .navbar-light .navbar-brand{
     color: white;
-    padding: 17px;
+    padding: 18px;
     background-color: #ff4040;
     margin-top: -8px;
-    margin-bottom: -6px;}
+    margin-bottom: -6px;
+    letter-spacing: 1px;}
  
-}
+
 
 .containerfix{
   padding: 10px;
@@ -78,7 +81,7 @@ footer {
     background: #ff4040;
     border-top: 3px solid lightgrey;
     height: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 15px;
   
   }

@@ -78,10 +78,15 @@ padding: 0;
 margin: 0 auto;
 }
 
-
-body{
-    background-image: url("/assets/images/dots.jpg");
+body, html {
+  height: 100%;
 }
+
+body, html {
+  height: 100%;
+}
+
+
 
 .jumbotron-fluid {
     padding-top: 10px;
@@ -93,7 +98,7 @@ body{
 
 a{
   color: #ff4040;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
    text-decoration: none;
 }
 
@@ -107,7 +112,7 @@ footer {
     background: #ff4040;
     border-top: 3px solid lightgrey;
     height: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 15px;
   
   }
