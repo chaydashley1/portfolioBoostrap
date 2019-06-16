@@ -56,29 +56,28 @@ background-image: url("/assets/images/dots.jpg");
 
 }
 
-
 footer {
+
+  padding: 35px 0px 0px;
+
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  background: #ff4040;
+  border-top: 3px solid lightgrey;
+  height: 100%;
+  width: auto;
+  letter-spacing: 1px;
+  font-size: 15px;
+
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  position:relative;
+  display: block;
+  top:-17px;
   
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #fff;
-    text-align: center;
-    background: #ff4040;
-    border-top: 3px solid lightgrey;
-    height: 50px;
-    letter-spacing: 1px;
-    font-size: 15px;
-  
-  }
-  .footer a{
-    text-decoration: none;
-    color: white;
-    position:relative;
-    display: block;
-    top:-17px;
-    
-  
-  }
-    
+
+}
